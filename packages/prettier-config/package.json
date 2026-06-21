@@ -1,0 +1,45 @@
+{
+  "name": "@andrii-kot/prettier-config",
+  "version": "1.0.1",
+  "description": "Prettier config for AndriiKot projects",
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "format",
+    "formatter",
+    "config",
+    "preset"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrii Kotsiuba",
+    "url": "https://github.com/AndriiKot"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrii-kot/prettier-config.git"
+  },
+  "homepage": "https://github.com/andrii-kot/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/andrii-kot/prettier-config/issues"
+  },
+  "scripts": {
+    "format": "prettier . --write",
+    "check": "prettier . --check"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

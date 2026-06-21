@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Build / output directories
+dist/
+coverage/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Temporary editor files
+*.swp
+*.swo
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
