@@ -24,23 +24,31 @@ An opinionated Prettier configuration customized for personal and project-specif
 Install Prettier and the config:
 
 ```bash
-npm install -D prettier git+https://github.com/andrii-kot/prettier-config.git
-```
-
-or
-
-```bash
-npm install -D github:andrii-kot/prettier-config
+npm install -D prettier @andrii-kot/prettier-config
 ```
 
 ---
 
 ## ⚙️ Usage
 
-Create a `prettier.config.mjs` file in your project:
+Add the config to your `package.json`:
+
+```json
+{
+  "prettier": "@andrii-kot/prettier-config"
+}
+```
+
+### Or using `prettier.config.js`
 
 ```js
 export { default } from "@andrii-kot/prettier-config";
+```
+
+## 🧪 Verify 
+
+```bash
+npx prettier . --check
 ```
 
 ---
@@ -69,6 +77,8 @@ This config follows a simple idea:
 All stylistic decisions are handled by Prettier, so you can focus on writing code instead of formatting it.
 
 ---
+
+> Note: This config uses ESM. Use `import` / `export` syntax.
 
 ## 📄 License
 
