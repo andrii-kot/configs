@@ -47,7 +47,9 @@ Or using `prettier.config.js`:
 export { default } from "@andrii-kot/prettier-config";
 ```
 
-## 🚀 Commands
+---
+
+## 🚀 CLI Commands
 
 ### Check formatting
 
@@ -74,6 +76,13 @@ Add scripts to your `package.json`:
     "check": "prettier . --check"
   }
 }
+```
+
+Then run:
+
+```bash
+npm run check
+npm run format
 ```
 
 ---
