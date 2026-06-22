@@ -16,8 +16,9 @@
     "url": "https://github.com/AndriiKot"
   },
   "type": "module",
-  "main": "index.js",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "files": [
     "index.js"
   ],
