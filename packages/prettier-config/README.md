@@ -19,6 +19,8 @@ An opinionated Prettier configuration customized for personal and project-specif
 - Node.js >= 18
 - Prettier >= 3
 
+---
+
 ## 📦 Installation
 
 Install Prettier and the config:
@@ -39,16 +41,24 @@ Add the config to your `package.json`:
 }
 ```
 
-Or using `prettier.config.js`
+Or using `prettier.config.js`:
 
 ```js
 export { default } from "@andrii-kot/prettier-config";
 ```
 
-## 🧪 Verify 
+## 🚀 Commands
+
+### Check formatting
 
 ```bash
 npx prettier . --check
+```
+
+### Format files
+
+```bash
+npx prettier . --write
 ```
 
 ---
