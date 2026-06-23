@@ -3,5 +3,9 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "prettier": "@andrii-kot/prettier-config",
+  "devDependencies": {
+    "prettier": "^3.8.4"
+  }
 }
