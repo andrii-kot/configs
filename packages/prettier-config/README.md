@@ -44,7 +44,7 @@ Add the config to your `package.json`:
 Or using `prettier.config.js`:
 
 ```js
-export { default } from "@andrii-kot/prettier-config";
+export { default } from '@andrii-kot/prettier-config';
 ```
 
 ---
