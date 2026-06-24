@@ -1,0 +1,47 @@
+{
+  "name": "@andrii-kot/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for AndriiKot projects",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "config",
+    "preset"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrii Kotsiuba",
+    "url": "https://github.com/AndriiKot"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrii-kot/eslint-config.git"
+  },
+  "homepage": "https://github.com/andrii-kot/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/andrii-kot/eslint-config/issues"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "eslint-config-metarhia": "^9.1.5"
+  },
+  "peerDependencies": {
+    "eslint": "^10.5.0"
+  }
+}
