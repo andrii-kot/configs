@@ -6,19 +6,19 @@ An opinionated ESLint configuration built on top of `eslint-config-metarhia` and
 
 ## ✨ Features
 
-* Based on `eslint-config-metarhia`
-* Modern ESLint Flat Config (v9+)
-* Consistent and maintainable code style
-* Additional custom rules and overrides
-* Optimized for readability and maintainability
-* Ready for Node.js >= 20
+- Based on `eslint-config-metarhia`
+- Modern ESLint Flat Config (v9+)
+- Consistent and maintainable code style
+- Additional custom rules and overrides
+- Optimized for readability and maintainability
+- Ready for Node.js >= 20
 
 ---
 
 ## Requirements
 
-* Node.js >= 20
-* ESLint >= 10
+- Node.js >= 20
+- ESLint >= 10
 
 ---
 
@@ -45,9 +45,7 @@ Or extend the config:
 ```js
 import config from '@andrii-kot/eslint-config';
 
-export default [
-  ...config,
-];
+export default [...config];
 ```
 
 ---
