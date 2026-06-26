@@ -4,9 +4,14 @@
   "workspaces": [
     "packages/*"
   ],
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "prettier": "@andrii-kot/prettier-config",
   "devDependencies": {
     "prettier": "^3.8.4",
-    "eslint": "^10"
+    "eslint": "^9",
+    "@andrii-kot/eslint-config": "workspace:*"
   }
 }
