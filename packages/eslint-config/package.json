@@ -1,6 +1,6 @@
 {
   "name": "@andrii-kot/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ESLint config for AndriiKot projects",
   "keywords": [
     "eslint",
