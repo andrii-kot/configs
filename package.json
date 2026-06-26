@@ -6,7 +6,8 @@
   ],
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "prettier -c . && eslint .",
+    "fix": "prettier --write . && eslint . --fix"
   },
   "prettier": "@andrii-kot/prettier-config",
   "devDependencies": {
