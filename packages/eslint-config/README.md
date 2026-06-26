@@ -18,7 +18,7 @@ An opinionated ESLint configuration built on top of `eslint-config-metarhia` and
 ## Requirements
 
 - Node.js >= 20
-- ESLint >= 10
+- ESLint >= 9
 
 ---
 
