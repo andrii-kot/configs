@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrii-kot/configs/tree/main/packages/eslint-config.git"
+    "url": "https://github.com/andrii-kot/configs/tree/main/packages/eslint-config"
   },
-  "homepage": "https://github.com/andrii-kot/eslint-config#readme",
+  "homepage": "https://github.com/andrii-kot/configs/tree/main/packages/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/andrii-kot/eslint-config/issues"
+    "url": "https://github.com/andrii-kot/configs/issues"
   },
   "scripts": {
     "test": "npm run lint",
